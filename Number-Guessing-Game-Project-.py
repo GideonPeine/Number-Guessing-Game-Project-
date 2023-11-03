@@ -38,6 +38,14 @@ def player_amount():
     amount = int(input('Enter amount of players: '))
     
     return amount
+
+def player_names():
+    #player_names accepts amount
+    #prompts users for there names
+    #returns players names
+        name = (input('Enter name of player: '))
+        
+        
         
         
     
