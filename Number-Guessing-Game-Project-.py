@@ -1,18 +1,44 @@
 #number guessing game
 
-def num_guess():
+def minimum():
     #num_guess accepts no arguments
-    #determines higher or lower
-    #ouputs if they guess it or not
+    #determines minimum and maximum
+    #returns minimum and maximum 
+    
+    #grabs variables from users
     minimum = int(input('Enter the minimum: '))
+    
+    
+    #sets variables if nothing is entered
+    if minimum == 0:
+        minimum = 1
+        
+    #returns value
+    return minimum
+
+def maximum():
+    #maximum accepts no arguments
+    #prompts user for maximum
+    #returns maximum
+    
+    #grabs variables from users
     maximum = int(input('Enter the maxiumum: '))
     
     #sets variables if nothing is entered
-    if minimum == 0 or minimum == '':
-        minimum = 1
-    if maximum == 0 or maximum == '':
+    if maximum == 0:
         maximum = 1000
-    print (minimum, maximum)
+        
+    #returns value
+    return maximum 
+        
+def player_amount():
+    #player_amount accepts no arguments
+    #prompts user for player amount
+    #returns amount
+    amount = int(input('Enter amount of players: '))
+    
+    return amount
+        
         
     
     
