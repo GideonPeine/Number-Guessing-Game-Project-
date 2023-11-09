@@ -45,7 +45,7 @@ def restart(playerlist, playercount, mini, maxi):
             
             
 def banish():
-    while 0<1:
+    while 0 <= 1:
         print(" ")
     
         
